@@ -37,4 +37,10 @@ Tax Amount: $5.196000000000001
 Discounted Amount: $62.45
 Final Total: $67.646
 
+NOTE: double has 64-bit precision
+      float has 32-bit precision
+
+      i.e why when Tax Amount is in float datatype
+      the value comes out to be 5.195999755859375.
+
 */
